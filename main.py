@@ -2,10 +2,15 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
+Chud=0
+bigShoon=0
 Big Shoon made another change
 Nuh uh Big weiner
+if bigShoon == Chud:
+    print("Big Shoon is a Chud")
 
+
+    
 
 
 def print_hi(name):
