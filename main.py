@@ -46,5 +46,5 @@ plt.title("Number of Illnesses for the Top 10 Serotypes across time")
 plt.legend()
 plt.legend(bbox_to_anchor=(0.86, 1), loc="upper left")
 plt.grid(True)
-plt.show()
+plt.show() #shows graph
 ###############################################################################################
