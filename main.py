@@ -87,3 +87,13 @@ pivot = meat_serotype.pivot(
     values="No_of_illnesses").fillna(0)
 # A pivot basically reshapes the data into a new data table that can be used to make a bar graph
 ##############################################################################################
+#Step 8, Bar graph of serotype and meat type
+pivot.plot(kind="bar", stacked=True, figsize=(14,8))
+
+plt.title("Illnesses by Meat Type for Each Serotype")
+plt.xlabel("Serotype")
+plt.ylabel("Total Illnesses")
+plt.xticks(rotation=45)
+plt.legend(title="Food Category", bbox_to_anchor=(0.90,1), loc="upper left")
+plt.tight_layout()
+plt.show()
